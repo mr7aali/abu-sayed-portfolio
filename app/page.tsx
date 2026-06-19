@@ -5,6 +5,8 @@ import { Header } from "./_components/Header";
 import { HeroSection } from "./_components/HeroSection";
 import { PageLoader } from "./_components/PageLoader";
 import { PortfolioSection } from "./_components/PortfolioSection";
+import { ScrollAnimations } from "./_components/ScrollAnimations";
+import { ScrollProgress } from "./_components/ScrollProgress";
 import { ServicesSection } from "./_components/ServicesSection";
 import { SkillsSection } from "./_components/SkillsSection";
 
@@ -12,6 +14,8 @@ export default function Home() {
   return (
     <div className="page-shell">
       <PageLoader />
+      <ScrollAnimations />
+      <ScrollProgress />
       <Header />
       <main>
         <HeroSection />

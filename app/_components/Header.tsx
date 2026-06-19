@@ -15,7 +15,7 @@ import { Logo } from "./Logo";
 
 export function Header() {
   return (
-    <header className="sticky top-4 z-40 mx-auto mt-5 w-[min(var(--page-width),calc(100%_-_48px))]">
+    <header className="site-header-animate sticky top-4 z-40 mx-auto mt-5 w-[min(var(--page-width),calc(100%_-_48px))]">
       <div className="glass-panel flex min-h-18 items-center justify-between gap-4 rounded-lg px-4 py-3 md:px-5">
         <Logo />
         <nav

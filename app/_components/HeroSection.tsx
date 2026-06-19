@@ -11,7 +11,7 @@ export function HeroSection() {
       className="site-container grid items-center gap-10 py-12 lg:grid-cols-[minmax(0,1fr)_minmax(360px,500px)] lg:py-16"
       id="home"
     >
-      <div className="max-w-3xl">
+      <div className="hero-scroll-copy max-w-3xl">
         <Badge className="h-7 rounded-lg border-primary/15 bg-white px-3 text-primary shadow-sm">
           <Sparkles aria-hidden="true" />
           Available for product design work
@@ -82,7 +82,7 @@ export function HeroSection() {
         </div>
       </div>
 
-      <div className="glass-panel relative hidden overflow-hidden rounded-lg px-6 pt-16 md:grid md:min-h-[430px] md:items-end md:pt-8">
+      <div className="hero-scroll-media glass-panel relative hidden overflow-hidden rounded-lg px-6 pt-16 md:grid md:min-h-[430px] md:items-end md:pt-8">
         <div className="absolute left-6 top-6 rounded-lg border border-slate-200 bg-white px-3 py-2 text-xs font-semibold text-slate-600 shadow-sm">
           Product thinking + visual systems
         </div>

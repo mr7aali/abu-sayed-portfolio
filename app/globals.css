@@ -91,6 +91,13 @@
 html {
   scroll-behavior: smooth;
   background: var(--background);
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
 }
 
 body {
@@ -101,6 +108,8 @@ body {
   font-family: var(--font-geist-sans), Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   text-rendering: geometricPrecision;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
 a {

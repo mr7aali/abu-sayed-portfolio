@@ -23,7 +23,7 @@ const columns = Array.from({ length: 12 });
 
 // Change this one value to control the complete loader duration.
 // Example: 0.5 = half a second, 1 = one second, 2 = two seconds.
-const LOADER_TOTAL_SECONDS = 2.5;
+const LOADER_TOTAL_SECONDS = 1.5;
 
 const loaderTiming = {
   entrance: LOADER_TOTAL_SECONDS * 0.32,
